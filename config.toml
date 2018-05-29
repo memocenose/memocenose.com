@@ -1,3 +1,83 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://www.memocenose.com" # Controls base URL
+languageCode = "en-US" # Controls site language
+title = "plop" # Homepage title and page title suffix
+copyright = "Memocenose."
+paginate = 5 # Number of posts to show before paginating
+paginatePath = "page"
+theme = "hugo-bootstrap-premium" # Set default theme
+enableRobotsTXT = true # Suggested, enable robots.txt file
+googleAnalytics = "" # Optional, add tracking Id for analytics
+disqusShortname = "memocenose-com" # Optional, add Disqus shortname for comments
+SectionPagesMenu = "main" # Enable menu system for lazy bloggers
+#footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+    code = "/:slug/"
+
+[taxonomies]
+    tag = "tags"
+    topic = "topics"
+
+[author]
+    name = "yourname"
+    email = "yourname@example.com"
+
+[params.theme]
+    name = "paper"
+
+[[menu.header]]
+    name = "Home"
+    weight = 1
+    url = "/"
+
+[[menu.header]]
+    name = "Resources"
+    weight = 2
+    url = "/resources/"
+
+[[menu.header]]
+    name = "Contact"
+    weight = 3
+    url = "/contact/"
+
+[[menu.footer]]
+    name = "Privacy Policy"
+    weight = 1
+    url = "/privacy-policy/"
+
+[[menu.footer]]
+    name = "Sponsors"
+    weight = 2
+    url = "/sponsors/"
+
+[params]
+  description = "" # Suggested, controls default description meta
+   # You can use markdown here.
+   brand = "foobar"
+   topline = "few words about your site"
+   footline = "code with <i class='fa fa-heart'></i>"
+
+    # Show a sidebar menu
+    showRightSidebar = true
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "home"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "Your Google Analytics tracking code"
+
+    # Sidebar social links.
+#    github = "enten/hugo-boilerplate" # Your Github profile ID
+    bitbucket = "" # Your Bitbucket profile ID
+    linkedin = "" # Your LinkedIn profile ID (from public URL)
+    googleplus = "" # Your Google+ profile ID
+    facebook = "" # Your Facebook profile ID
+    twitter = "" # Your Twitter profile ID
+    youtube = ""  # Your Youtube channel ID
+    flattr = ""  # populate with your flattr uid
+
