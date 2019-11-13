@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on MemoCenose</title>
+    <link>https://www.memocenose.com/posts/</link>
+    <description>Recent content in Posts on MemoCenose</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Tue, 29 May 2018 15:01:54 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.memocenose.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My second Post</title>
+      <link>https://www.memocenose.com/posts/my-second-post/</link>
+      <pubDate>Tue, 29 May 2018 15:01:54 +0200</pubDate>
+      
+      <guid>https://www.memocenose.com/posts/my-second-post/</guid>
+      <description>hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello
+hello plop
+Introduction polop
+why note pololop
+This is a test and we like it ! :)
+ w0t w00t w000t c&amp;rsquo;est pas cool  enfin si un peu  enfin si un peu enfin si un peu enfin si un peu enfin si un peu  enfin si un peu enfin si un peu  c&amp;rsquo;est pas cool hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello =====  plop</description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://www.memocenose.com/posts/my-first-post/</link>
+      <pubDate>Wed, 23 May 2018 15:01:54 +0200</pubDate>
+      
+      <guid>https://www.memocenose.com/posts/my-first-post/</guid>
+      <description> hello plop
+Introduction polop
+why note pololop
+This is a test and we like it ! :)
+ w0t w00t w000t c&amp;rsquo;est pas cool  enfin si un peu  enfin si un peu enfin si un peu enfin si un peu enfin si un peu  enfin si un peu enfin si un peu  c&amp;rsquo;est pas cool  </description>
+    </item>
+    
+  </channel>
+</rss>
